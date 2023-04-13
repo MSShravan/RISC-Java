@@ -1,0 +1,28 @@
+Are you ready to play Risk? We hope so!
+In this game, you will own several territories and battle with your fellow players
+to be the last one standing.
+The game will proceed as below:
+
+	(1) Each player will select a name (among the available names).
+	(2) Each player will place their initial units among their territories.
+	(3) The game will then proceed in turns, until only one player is remaining.
+
+The rules of the game are as follows. Each player gets the same number of units to 
+place across the territories they own. You may place your units across your territory
+however you wish, as long as every placement is a non-negative integer and all placements
+add up to the total allowed number. After placing units, the turns will begin. During your
+turn you may commit as many actions as you desire. There are two types of actions: (1) Move
+and (2) Attack. In a move, you can move units between your territories as long as you own
+both territories, you have the units available to move, and there is a valid path of
+territories that you own between the two territories. In an attack, you can attack an adjacent
+territory from your own territory, using units in your territory. Once all players have
+committed all their moves, the turn occurs. The actions are resolved in the following manner:
+
+	(1) All moves occur simultaneously, before attacks.
+	(2) All attacks also occur simultaneously.
+	(3) All units attacking do not participate in defense.
+	(4) For an attack, a 20-sided dice is rolled for each unit to determine who wins.
+	(5) The player with units remaining controls the territory.
+
+A player loses when she owns no territories. The turns will proceed until only one player
+remains.
